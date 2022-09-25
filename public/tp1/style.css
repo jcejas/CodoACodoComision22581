@@ -1,0 +1,29 @@
+.padding-unset {
+    padding: unset;
+}
+
+.btn-transparent{
+    color: white;
+    border-color: white;
+}
+
+.btn-transparent:hover{
+    background-color: #212529 !important;
+}
+
+.img-opaque{
+    filter: brightness(0.7);
+}
+
+.tech-desc{
+    transform: scale(0.7);
+    font-weight: bold;
+}
+
+.bg-grayblue{
+    background-color: #43485c;
+}
+
+.footer-bg{
+    background-color: #0a4275;
+}

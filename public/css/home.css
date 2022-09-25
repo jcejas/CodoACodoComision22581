@@ -1,0 +1,30 @@
+.marvel-letter{
+    font-family: Gill Sans, sans-serif;
+    font-weight: 1000;
+    letter-spacing: -0.3px;
+    color: white;
+    transform: scaleY(2);
+    text-transform: uppercase;
+}
+
+.bg-marvel{
+    background-image: url('../../assets/img/marvel-bg-1.jpg');
+}
+
+.home-content{
+    /*background-color: white;*/
+    padding: 10px;
+    margin: 10px;
+}
+
+.custom-card{
+    margin: 0 5px 10px 5px;
+    background-color: #181818;
+    color: white;
+}
+
+.img-card{
+    height: 240px;
+    overflow: hidden;
+    background-color: black;
+}
