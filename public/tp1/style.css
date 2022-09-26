@@ -1,3 +1,7 @@
+:root {
+    --bg-transform-dark: rgba(0, 0, 0, 0.2);
+}
+
 .padding-unset {
     padding: unset;
 }
@@ -33,9 +37,13 @@ nav>a:hover{
 }
 
 .nav-item>.nav-link:hover{
-    transform: scale(1.1);
+    background-color: var(--bg-transform-dark);
 }
 
 .bg-obscure{
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: var(--bg-transform-dark);
+}
+
+footer a:hover{
+    background-color: var(--bg-transform-dark);
 }
